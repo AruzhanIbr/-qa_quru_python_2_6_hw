@@ -6,7 +6,7 @@ from typing import Tuple
 class Subject(Enum):
     History = 'History'
     Maths = 'Maths'
-    Physics = 'Pysics'
+    Physics = 'Physic'
 
 
 class Hobby(Enum):
@@ -27,13 +27,13 @@ class User:
     name: str
     last_name: str = 'Romanova'
     email: str = 'elena@mail.ru'
-    user_number: str = '1234567891'
+    mobile: str = '1234567891'
     birth_day: str = '30'
     birth_month: str = 'March'
     birth_year: str = '1995'
-    subjects: Tuple[Subject] = (Subject.History, Subject.Maths, Subject.Physics)
+    subjects: Tuple[Subject] = (Subject.History, Subject.Maths, )
+    hobbies: Tuple[Hobby] = (Hobby.Sports, Hobby.Reading)
     current_address: str = 'Astana'
-    hobbies: Tuple[Hobby] = (Hobby.Sports, Hobby.Music)
     picture_file: str = 'photo.jpg'
     state: str = 'Haryana'
     city: str = 'Karnal'
