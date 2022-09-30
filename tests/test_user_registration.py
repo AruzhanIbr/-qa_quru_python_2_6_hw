@@ -1,6 +1,3 @@
-from selene import have, command
-from selene.support.shared import browser
-
 from demoqa_tests.model.pages import registration_form
 from demoqa_tests.model.pages.registration_form import *
 from demoqa_tests.utils import turpl_to_string
