@@ -1,5 +1,6 @@
 from typing import Tuple
 
+
 def convert(items: Tuple):
     tuple_list = ''
 
