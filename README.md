@@ -1,1 +1,0 @@
-# -qa_quru_python_2_6_hw
