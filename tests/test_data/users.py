@@ -24,7 +24,7 @@ class Gender(Enum):
 @dataclass
 class User:
     gender: Gender
-    name: str = 'Elena'
+    name: str
     last_name: str = 'Romanova'
     email: str = 'elena@mail.ru'
     user_number: str = '1234567891'
@@ -37,3 +37,6 @@ class User:
     picture_file: str = 'photo.jpg'
     state: str = 'Haryana'
     city: str = 'Karnal'
+
+
+elena = User(name='Elena', gender=Gender.Female)
